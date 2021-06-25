@@ -1,0 +1,283 @@
+.BG {
+    border-radius: 3px;
+    box-shadow: 0 0 8px 0 rgb(34, 32, 32);
+    border-top: 1px solid rgba(0, 0, 0, 0.808);
+    border-left: 1px solid rgba(2, 2, 2, 0.637);
+    border-right: 1px solid rgba(2, 2, 2, 0.637);
+    border-bottom: 1px solid rgba(2, 2, 2, 0.637);
+    margin-top: 0px;
+    background-color: #1e262efb;
+    width: 90%;
+    height: 100%;
+    text-align: justify;
+    margin-bottom: 50px;
+    text-align: center;
+    @media (max-width: 978px) {
+        width: 100% !important;
+        text-align: center;
+    }
+    
+}
+#remInp{
+    display: none !important;
+}
+.uzn-page{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    form{
+        width: 70% !important;
+    }
+}
+.search-f{
+    background-color: #41426bb2;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    //justify-content: center;
+    
+    .search-h{
+        font-size: 28px;
+        margin: 6px 0 0 30px;
+        @media (max-width: 978px) {
+            font-size: 18px;
+        }
+    }
+    form{
+        width: 80%;
+    }
+    .ser-cont{
+        background-color: rgba(0, 0, 0, 0.63);
+        border-radius: 3px;
+        width: 40%;
+        float: right;
+        margin-right: 30px;
+        margin-top: 11px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 0 10px 0 rgba(39, 38, 38, 0.377);
+        @media (max-width: 978px) {
+            width: 75% !important;
+        }
+    }
+    #serF, #serF-uzn{
+        outline: none;
+        border: none !important;
+        background-color: transparent;
+        color: white;
+        //border-radius: 3px;
+        padding: 8px;
+        border-right: 1px solid rgba(255, 255, 255, 0.644) !important;
+        width: 90%;
+    }
+    .searBtn{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        background-image: url(../img/white_search.png);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        height: 25px;
+        width: 25px;
+        background-size: cover;
+        margin-top: 6px;
+        margin-left: 10px;
+        margin-right: 10px;
+        float: right;
+        //padding: 5px;
+        
+    }
+
+}
+.panel{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #1A2D4B;
+    text-align: center;
+    margin-top: 100px;
+    height: 50px;
+    font-size: 30px;
+}
+
+//block with link 
+.imgBlock{
+    margin: 30px 1px 30px 1px;
+    display: inline-block;
+    width: 200px;
+    @media (max-width: 978px) {
+        margin: auto !important;
+    }
+    
+}
+.imgLink{
+    
+    font: 30px Arial, Helvetica, sans-serif;
+    color: rgb(211, 209, 209);
+    padding: 30px ;
+    background-color: #23323df1;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.555);
+    border-radius: 1px;
+    
+    display: block;
+    max-height: 200px;
+    min-height: 200px;
+    max-width:200px;
+    text-align: center;
+    
+    img{
+        height: 100px;
+        max-height: 100px;
+        min-height: 100px;
+    }
+}
+.imgLink:hover{
+    background-color: #2e3d47f1;
+}
+//
+// city page
+.imgBlock-CityPage{
+    margin: 50px 30px 50px 30px;
+    
+}
+.imgLink-CityPage{
+    
+    font: 30px Arial, Helvetica, sans-serif;
+    color: rgb(211, 209, 209);
+    padding: 60px;
+    background-color: rgba(109, 108, 108, 0.534);
+    box-shadow: 0px 0px 5px  rgba(212, 212, 212, 0.329);
+    border-radius: 5px;
+    border: 3px solid rgba(0, 0, 0, 0.459);
+    display: block;
+    
+    max-width:300px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.apraksts{
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.904);
+    background-color: rgba(0, 0, 0, 0.589);
+    margin: auto;
+    @media (max-width: 978px) {
+        max-width: unset !important;
+        width: 100% !important;
+    }
+   p{
+
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+   }
+}
+
+
+// posted pages
+.info-container{
+    background-color: rgba(0, 0, 0, 0.658);
+    padding-bottom: 50px;
+}
+.nosaukums {
+    font-size: 70px;
+}
+.info-head{
+    
+    margin-top: 30px;
+    color: rgb(122, 223, 248);
+    
+}
+.info{
+    border-bottom: 1px solid white;
+    
+}
+.info-apraksts{
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.904);
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+//komenti
+
+#delCom{
+    border: none;
+    outline: none;
+    color: rgb(134, 69, 69);
+    background-color: black;
+    float: right;
+    font-size: 14px;
+    border-radius: 100px;
+}
+#user-comment{
+    
+    background-color: rgba(255, 255, 255, 0.89);
+            border: none;
+            outline: none;
+            color: black;
+            width: 60%;
+            height: 120px;
+            padding: 15px;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            margin: 0 0 30px 0;
+}
+.changeBtn{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 60%;
+    margin: 30px auto 0 auto;
+    display: block;
+    outline: none;
+    border: none;
+    background-color: #726b65d8;
+    border-radius: 2px;
+    padding: 1px 9px 1px 9px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.603);
+}
+.changeBtn:hover{
+    background-color: #aca6a1d8;
+}
+#hidden-input-name, #hidden-input-id{
+    display: none;
+}
+
+.comment-section{
+    margin-top: 30px;
+}
+.comment-s{
+    background-color: #41426b73;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px 0 black;
+    padding: 15px;
+    img{
+        border-radius: 50px;
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+    h1, small{
+        
+        margin-left: 20px;
+    }
+    h1{
+        margin-top: 20px;
+    }
+    small{
+        margin-top: 25px;
+    }
+    #comment-block{
+        background-color: rgba(0, 0, 0, 0.637) !important;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px 0 20px 0;
+    }
+    .c-group{
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+
+    }
+}

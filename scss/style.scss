@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    background-color: #303030;
+}
+
+nav {
+    //height: 60px;
+    background-color: rgba(226, 0, 0, 0.116);
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    a {
+       // float: right;
+       color: rgb(255, 250, 250);
+       text-decoration: none;
+       padding: 16px 30px 16px 30px;
+       border-right: 1px solid rgb(0, 0, 0);
+       //border-left: 1px solid rgb(0, 0, 0);
+
+    }
+
+    .active {
+        background-color:  rgb(112, 51, 1);
+        color: black;
+    }
+    .profile{
+        background-color: rgba(255, 255, 0, 0.295);
+        color: black;
+    }
+
+    .login {
+        position: absolute;
+        padding: 15px 20px 15px 20px;
+        border-right: 0px solid rgb(0, 0, 0);
+        border-left: 1px solid rgb(0, 0, 0);
+        right: 0px;
+        top: 0px;
+    }
+    a:hover {
+        background-color: rgb(112, 51, 1);
+        color: black;
+    }
+}
+
+
+//registration page
+$err: rgb(252, 79, 79);
+.registration-form {
+    text-align:center;
+    label {
+        color: rgb(255, 255, 255);
+    }
+    .error {
+        color: $err;
+        text-align:left;
+    }
+    ul {
+        color: white;
+
+        text-align:left;
+    }
+
+
+   
+    input{
+        box-sizing: border-box;
+
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+    color: white;
+    }
+
+
+    .reg {
+        
+        margin: 60px auto;
+        padding: 10% 10% 10% 10%;
+        background: linear-gradient(to right, rgba(7, 7, 7, 0.945), rgba(0, 0, 0, 0.849));
+
+    }
+    a{
+        font: 16px Arial, Helvetica, sans-serif;
+        padding: 4px;
+        color: rgb(211, 209, 209);
+        background-color: rgba(0, 255, 242, 0.082);
+        box-shadow: 0px 0px 10px  rgba(0, 255, 255, 0.452);
+        text-decoration: none;
+        text-transform: uppercase;
+        
+
+    }
+    
+
+
+    button{
+
+        box-shadow: inset 0px 1px 0px 0px #4745d6;
+        background-color: #1f00a786;
+        height: 35px;
+        border: none;
+        box-sizing: border-box;
+	    max-width: 200px;
+        min-width: 200px;
+	    outline: none;
+	    font: 16px Arial, Helvetica, sans-serif;
+        margin: 5px;
+        color: white;
+    }
+
+    
+    button[disabled]{
+        opacity: 0.5;
+  pointer-events: none;
+    }
+
+}
+
+//password strength warning
+
+$pwdMessage: rgba(255, 255, 255, 0.466);
+.shortPwd {
+    margin: 5px;
+    color: $pwdMessage;
+}
+.weakPwd {
+    margin: 5px;
+    color: $pwdMessage;
+}
+.weakField{
+ background: rgba(255, 0, 0, 0.082);
+
+}
+.weakField2{
+    background: rgba(255, 0, 0, 0.082);
+}
+.mediumPwd {
+    margin: 5px;
+    color: $pwdMessage;
+}
+.mediumField{
+    background-color: rgba(255, 166, 0, 0.082);
+}
+.strongPwd {
+    margin: 5px;
+    color: $pwdMessage;
+}
+.strongField{
+    background-color: rgba(0, 128, 0, 0.082);
+}
+.notMatchPwd{
+    margin: 5px;
+    color: $pwdMessage;
+}
+
+
+
+
+//profile page
+.profileInfo {
+    margin: 30px;
+    color:blanchedalmond; 
+}
